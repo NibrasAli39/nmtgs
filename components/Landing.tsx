@@ -1,5 +1,5 @@
 import React from "react";
-
+import Particles from "./Particles";
 export default function Landing() {
   interface navItem {
     name: string;
@@ -23,6 +23,7 @@ export default function Landing() {
           {navItems.map((item, index) => {
             return (
               <a
+                key={item.name}
                 className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
                 href={item.link}
               >
@@ -33,7 +34,11 @@ export default function Landing() {
         </ul>
       </div>
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0"></div>
-      <div className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+      <Particles
+        className="absolute inset-0 -z-10 animate-fade-in"
+        quantity={100}
+      />
+      <div className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title  sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         NMTGS
       </div>
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0"></div>
