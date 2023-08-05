@@ -1,4 +1,5 @@
 import Landing from "@/components/Landing";
+import AboutUs from "@/components/aboutUs";
 import ContactUs from "@/components/contactUs";
 import OurWork from "@/components/ourWork";
 import Services from "@/components/services";
@@ -11,6 +12,7 @@ export default function Home() {
       <Services />
       <OurWork />
       <Stats />
+      <AboutUs />
       <ContactUs />
     </main>
   );
