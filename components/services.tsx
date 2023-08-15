@@ -5,8 +5,8 @@ import ServiceBox from "./serviceBox";
 export default function Services() {
   return (
     <div className="flex flex-col w-screen min-h-screen p-8 bg-white">
-      <div className="mt-12 z-10 text-2xl  sm:text-3xl md:text-4xl whitespace-nowrap bg-clip-text text-slate-950">
-        Our Services
+      <div className="mt-12 z-10 text-2xl font-bold sm:text-3xl md:text-4xl whitespace-nowrap bg-clip-text text-slate-950">
+        What we offer
       </div>
       <div className="text-sm mt-4 text-zinc-400 border-b border-zinc-800 pb-8">
         Here's a glance at what we do

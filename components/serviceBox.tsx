@@ -7,7 +7,7 @@ interface props {
 
 export default function ServiceBox(props: props) {
   return (
-    <div className="p-12 w-full h-full bg-slate-50 hover:bg-slate-100 rounded shadow-lg">
+    <div className="p-12 w-full h-full bg-slate-50 hover:bg-slate-100 rounded">
       <div className="z-10 text-2xl  sm:text-3xl md:text-4xl whitespace-nowrap bg-clip-text text-slate-950">
         {props.name}
       </div>

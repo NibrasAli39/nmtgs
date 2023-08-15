@@ -40,7 +40,7 @@ export default function Projects() {
           </ul>
         </div>
       </div>
-      <div className="z-10 text-2xl  sm:text-3xl md:text-4xl whitespace-nowrap bg-clip-text ">
+      <div className="z-10 font-bold text-2xl  sm:text-3xl md:text-4xl whitespace-nowrap bg-clip-text ">
         Projects
       </div>
       <div className="text-sm mt-4 text-zinc-400 border-b border-zinc-800 pb-8">

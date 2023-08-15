@@ -40,11 +40,11 @@ export default function Profile() {
           </ul>
         </div>
       </div>
-      <div className="z-10 text-2xl  sm:text-3xl md:text-4xl whitespace-nowrap bg-clip-text ">
+      <div className="z-10 text-2xl font-bold  sm:text-3xl md:text-4xl whitespace-nowrap bg-clip-text ">
         Resume
       </div>
       <div className="text-sm mt-4 text-zinc-400 border-b border-zinc-800 pb-8">
-        An overview of Mersib's professional career
+        A look at my professional career
       </div>
       <div className="grid grid-cols-1 py-16 gap-16">
         <div className="col-span-1">
